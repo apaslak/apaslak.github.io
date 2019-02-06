@@ -1,0 +1,25 @@
+nav ul, footer ul {
+  padding: 10px;
+  list-style: none;
+  font-weight: bold;
+
+  a {
+    color: rgb(30,3,45);
+    padding: 0px 5px 5px 5px;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: rgb(30,3,45);
+    border-bottom: 2px solid rgb(183,100,229);
+  }
+
+  a.selected {
+    border-bottom: 2px solid rgb(78,15,112);
+  }
+}
+
+nav ul li, footer ul li {
+  display: inline;
+  margin-right: 20px;
+}
