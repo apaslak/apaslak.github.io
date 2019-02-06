@@ -19,7 +19,7 @@ title: Amy Paslak
 
   <div class="row">
     <h4 class="three columns">Languages</h4>
-    <div class="nine columns" markdown="1">{% include about/languages.html %}</div>
+    <div class="nine columns" markdown="1">{% include about/languages.md %}</div>
   </div>
 
 </div>
