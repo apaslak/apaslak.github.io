@@ -1,7 +1,7 @@
 title: Amy Paslak
 email: me@amypaslak.com
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+permalink: /:categories/:year/:month/:day/:title
 root_url: "/"
 baseurl: ""
 

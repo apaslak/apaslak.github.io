@@ -1,0 +1,8 @@
+<div>
+  {% for post in site.categories.library limit:1 %}
+    <h5>{{ post.title }}</h5>
+    <a href="{{ post.reference_link }}"><img src="{{ post.book_cover }}"></a>
+
+    {{ post.content }}
+  {% endfor %}
+</div>

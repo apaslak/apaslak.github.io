@@ -1,6 +1,5 @@
 body {
   margin: 60px auto;
-  width: 70%;
 }
 nav ul, footer ul {
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -17,14 +16,14 @@ a {
   color: #999;
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 h1 {
   font-size: 3em;
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-  font-size: 1.5em;
+  font-size: 1em;
   line-height: 1.4em;
   color: #333;
 }
@@ -40,4 +39,16 @@ ul.posts {
 
 ul.posts li {
   list-style: none;
+}
+
+#about-me {
+}
+
+.book {
+  img {
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin-right: 15px;
+  }
 }
