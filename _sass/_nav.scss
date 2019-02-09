@@ -1,7 +1,27 @@
+nav {
+  height: 55px;
+  padding-bottom: 10px;
+  font-size: .8em;
+  position: fixed;
+  left: 0px;
+  width: 100%;
+  background: #FFFFFF;
+  z-index: 2;
+
+  div {
+    float: left;
+  }
+
+  ul {
+    float: right;
+    margin-bottom: 0px;
+    line-height: 55px;
+    font-weight: bold;
+  }
+}
+
 nav ul, footer ul {
-  padding: 10px;
   list-style: none;
-  font-weight: bold;
 
   a {
     color: rgb(30,3,45);
@@ -17,9 +37,32 @@ nav ul, footer ul {
   a.selected {
     border-bottom: 2px solid rgb(78,15,112);
   }
+
+  li {
+    display: inline;
+    margin-right: 20px;
+  }
 }
 
-nav ul li, footer ul li {
-  display: inline;
-  margin-right: 20px;
+#name {
+  font-size: 3em;
+  margin-left: 10px;
 }
+
+footer {
+  font-size: .8em;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 35px;
+  width: 100%;
+  background: #FFFFFF;
+  line-height: 35px;
+
+  ul {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+

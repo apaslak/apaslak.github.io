@@ -1,40 +1,32 @@
 body {
-  margin: 60px auto;
+  margin-bottom: 40px;
 }
+
+.container {
+  padding-top: 65px;
+}
+
 a {
   text-decoration: none;
-  color: #999;
+  color: rgb(78,15,112);
 }
+
 a:hover {
   text-decoration: none;
+  color: rgb(183,100,229);
 }
-h1 {
-  font-size: 3em;
-  font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
+
 p {
-  font-size: 1em;
   line-height: 1.4em;
-  color: #333;
-}
-footer {
-  border-top: 1px solid #d5d5d5;
-  font-size: .8em;
+  color: rgb(30,3,45);
 }
 
-ul.posts { 
-  margin: 20px auto 40px; 
-  font-size: 1.5em;
-}
-
-ul.posts li {
-  list-style: none;
-}
-
-#about-me {
+hr {
+  border-top: 1px solid rgb(183,100,229);
 }
 
 .book {
+  list-style: none;
   img {
     width: 30%;
     height: 100%;

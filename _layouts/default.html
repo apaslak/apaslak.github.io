@@ -2,30 +2,17 @@
 <html>
   <head>
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ page.stylesheet | default: 'main.css' | prepend: '/assets/css/' }}">
     <link rel="stylesheet" href="/assets/css/normalize.min.css">
     <link rel="stylesheet" href="/assets/css/skeleton.css">
+    <link rel="stylesheet" href="{{ page.stylesheet | default: 'main.css' | prepend: '/assets/css/' }}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    {% include nav.html %}
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="/" {% include selected_nav.html permalink="/" %}>Home</a></li>
-        <li><a href="/about" {% include selected_nav.html permalink="/about/" %}>About</a></li>
-        <li><a href="/projects" {% include selected_nav.html permalink="/projects/" %}>Projects</a></li>
-        <li><a href="/blog" {% include selected_nav.html permalink="/blog/" %}>Blog</a></li>
-        <li><a href="/library" {% include selected_nav.html permalink="/library/" %}>Library</a></li>
-      </ul>
-    </nav>
     <div class="container">
-
       {{ content }}
+    </div>
 
-    </div><!-- /.container -->
-    <footer>
-      <ul>
-        <li><a href="mailto:me@amypaslak.com">email</a></li>
-        <li><a href="https://github.com/apaslak">github.com/apaslak</a></li>
-      </ul>
-    </footer>
+    {% include footer.html %}
   </body>
 </html>
