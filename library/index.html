@@ -6,7 +6,7 @@ selected_nav: /library/
 ---
 
 <ul class="books">
-  {% for post in site.categories.library offset:1 %}
+  {% for post in site.categories.library limit:15 offset:1 %}
     <li class="row book">
       <h5 class="three columns">{{ post.date | date_to_string }}</h5>
       <div class="nine columns">
