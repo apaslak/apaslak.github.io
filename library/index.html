@@ -7,14 +7,8 @@ selected_nav: /library/
 
 <ul class="books">
   {% for post in site.categories.library limit:15 offset:1 %}
-    <li class="row book">
-      <h5 class="three columns">{{ post.date | date_to_string }}</h5>
-      <div class="nine columns">
-        <h5>{{ post.title }}</h5>
-        <a href="{{ post.reference_link }}"><img src="{{ post.book_cover }}"></a>
-
-        {{ post.content }}
-      </div>
+    <li class="row">
+      {% include book_template.html date=post.date title=post.title content=post.content reference_link=post.reference_link book_cover=post.book_cover%}
     </li>
     <hr>
   {% endfor %}

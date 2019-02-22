@@ -1,0 +1,9 @@
+<div class='book'>
+  <h5 class="three columns">{{ include.date | date_to_string }}</h5>
+  <div class="nine columns">
+    <h5>{{ include.title }}</h5>
+    <a href="{{ include.reference_link }}"><img src="{{ include.book_cover }}"></a>
+
+    {{ include.content }}
+  </div>
+</div>

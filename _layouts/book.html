@@ -1,10 +1,5 @@
 ---
 layout: default
+selected_nav: /library/
 ---
-<h5>{{ page.title }}</h5>
-<a href="{{ page.reference_link }}"><img src="{{ page.book_cover }}"></a>
-<p class="meta">{{ page.date | date_to_string }}</p>
-
-<div class="book" markdown="1">
-  {{ content }}
-</div>
+{% include book_template.html date=page.date title=page.title content=content reference_link=page.reference_link book_cover=page.book_cover %}
