@@ -1,28 +1,4 @@
-nav {
-  height: 55px;
-  padding-bottom: 10px;
-  font-size: .8em;
-  position: fixed;
-  left: 0px;
-  width: 100%;
-  background: #FFFFFF;
-  z-index: 2;
-
-  div {
-    float: left;
-  }
-
-  ul {
-    float: right;
-    margin-bottom: 0px;
-    line-height: 55px;
-    font-weight: bold;
-  }
-}
-
-nav ul, footer ul {
-  list-style: none;
-
+@mixin link {
   a {
     color: rgb(30,3,45);
     padding: 0px 5px 5px 5px;
@@ -37,16 +13,39 @@ nav ul, footer ul {
   a.selected {
     border-bottom: 2px solid rgb(78,15,112);
   }
-
-  li {
-    display: inline;
-    margin-right: 20px;
-  }
 }
 
-#name {
-  font-size: 3em;
-  margin-left: 10px;
+nav {
+  height: 55px;
+  padding-bottom: 10px;
+  font-size: .8em;
+  background: #FFFFFF;
+  z-index: 2;
+  position: fixed;
+
+  div {
+    float: left;
+    font-size: 3em;
+    margin-left: 10px;
+
+    @include link;
+  }
+
+  ul {
+    float: right;
+    margin-bottom: 0px;
+    line-height: 55px;
+    font-weight: bold;
+    list-style: none;
+
+    @include link;
+  }
+
+  ul li {
+    display: inline;
+    font-size: 1.2em;
+    margin: 0 5px;
+  }
 }
 
 footer {
@@ -63,6 +62,50 @@ footer {
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
+    list-style: none;
+
+    @include link;
+  }
+
+  ul li {
+    text-align: center;
+    margin: 0 5px;
+    display: inline;
   }
 }
 
+@media (max-width: 599px) {
+  nav {
+    height: 84px;
+
+    div {
+      float: unset;
+      position: fixed;
+      left: 50%;
+      transform: translateX(-50%);
+      margin: 0px -100px 0px 0px;
+    }
+
+    div a {
+      border-bottom: 2px solid rgb(183,100,229);
+    }
+
+    ul {
+      float: unset;
+      position: fixed;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 30px;
+      margin: 15px -130px 0px 0px;
+    }
+
+    ul li {
+      font-size: 1.5em;
+      margin: 0px;
+    }
+  }
+
+  .container {
+    padding-top: 100px;
+  }
+};
