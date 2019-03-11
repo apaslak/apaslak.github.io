@@ -1,0 +1,13 @@
+<div class="row section" id="skills">
+  <div class="three columns"><h5>Skills</h5></div>
+  <div class="nine columns">
+    {% for skillset in site.data.resume.skills %}
+    <div class="subtitle">{{ skillset.section }}</div>
+    <ul>
+      {% for skill in skillset.skills %}
+      <li>{{ skill.name }} {% if skill.details %} &mdash; {{ skill.details }}{% endif %}</li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
+  </div>
+</div>

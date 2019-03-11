@@ -1,0 +1,20 @@
+- section: "Languages and Frameworks"
+  skills:
+    - name: "Ruby"
+      details: Rails, Rspec, Capybara, Selenium, Jekyll
+    - name: "Javascript"
+      details: jQuery, Node.js, Backbone.js, Jasmine, React
+- section: "Data Systems"
+  skills:
+    - name: "Databases"
+      details: MySQL, PostgreSQL
+    - name: "Data Stores"
+      details: Redis
+- section: "Miscellaneous"
+  skills:
+    - name: "Text Editors"
+      details: Vim, Emacs, SpaceMacs
+    - name: "Version Control"
+      details: Git
+    - name: "Infrastructure"
+      details: Chef, Capistrano, Jenkins, Travis

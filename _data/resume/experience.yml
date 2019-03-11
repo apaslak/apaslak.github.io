@@ -1,0 +1,37 @@
+- company: Vibes Media
+  start: 2012-05-14
+  positions:
+    - title: Senior Software Engineer / Team Lead
+      noteables:
+        - Lead an agile team to maintain and improve an outdated CRM, built on Ruby/Rails with a Backbone.js and React front end.
+        - Championed and implemented a large UI overhaul, which brought the look and feel of the CRM up to date with modern styling, as well as allowed the team to clean up unused and duplicated styles across the platform.
+        - Member of team that successfully migrated the CRM from company-owned servers into AWS.
+    - title: Software Engineer II / Team Lead
+      noteables:
+        - Lead a team of contractors to update the CRM from Rails 2.3 & Ruby 1.8.7 to Rails 3.2 & Ruby 2.1, with active development ongoing.
+        - Brief foray into contract work, where I built a small greeting card app and a lightweight conversation engine that integrated into the CRM.
+        - Mentored junior members of the team.
+        - Deployed new code at a regular cadence.
+    - title: Software Engineer I
+      noteables:
+        - Introduced better code quality and standardization with code reviews and linting tools
+        - Mentored other engineers about common QA practices, as our team functioned without an official QA engineer.
+    - title: Quality Assurance Engineer
+      noteables:
+        - Maintained and expanded the automated test suite.
+        - Documented and manually tested new features.
+    - title: Software Engineering / Quality Assurance Intern
+      conclude_page: conclude-page
+      noteables:
+        - Designed, implemented, and maintained an automated test suite for a CRM platform's UI and APIs using Rspec, Capybara, and Selenium.
+        - Integrated the test suite with Jenkins and a specialized test environment.
+        - Documented features and discovered/filed existing bugs.
+- company: Collaboration and Social Media Lab, IIT
+  start: 2011-09-01
+  end: 2012-05-12
+  positions:
+    - title: Research Assistant
+      noteables:
+        - Maintained MySQL database of political tweets scraped from Twitter
+        - Developed and maintained front-end application for querying the database
+        - Researched auto-coding techniques using MALLET

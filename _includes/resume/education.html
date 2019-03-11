@@ -1,0 +1,14 @@
+<div class="row section last" id="education">
+  <div class="three columns"><h5>Education</h5></div>
+  <div class="nine columns">
+    {% for school in site.data.resume.education %}
+    <div class="subtitle">{{ school.name }} &mdash; {{ school.duration }}</div>
+    <div>{{ school.degree }}</div>
+    <ul>
+      {% for noteable in school.noteables %}
+      <li>{{ noteable }}</li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
+  </div>
+</div>
