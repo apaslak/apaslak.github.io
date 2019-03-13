@@ -1,6 +1,7 @@
 body {
   margin-bottom: 40px;
   font-family: "Lato", sans-serif;
+  background-color: #EEE9F2;
 }
 
 .with-nav {
@@ -41,10 +42,16 @@ hr {
   }
 }
 
-#not-found {
+.center {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
+#landing-page {
+  font-size: 2em;
+  img {
+    width: 60%;
+  }
+}

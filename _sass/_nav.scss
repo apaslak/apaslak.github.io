@@ -30,7 +30,7 @@ nav {
   height: 55px;
   padding-bottom: 10px;
   font-size: .8em;
-  background: #FFFFFF;
+  background: #EEE9F2;
   z-index: 2;
   position: fixed;
 
@@ -59,7 +59,7 @@ footer {
   bottom: 0px;
   height: 35px;
   width: 100%;
-  background: #FFFFFF;
+  background: #EEE9F2;
   line-height: 35px;
 
   ul {
@@ -75,6 +75,9 @@ footer {
     text-align: center;
     margin: 0 5px;
     display: inline;
+  }
+  ul li a {
+    color: rgb(78,15,112);
   }
 }
 

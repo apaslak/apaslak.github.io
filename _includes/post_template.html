@@ -1,5 +1,5 @@
 <div class="three columns">
-  <h5>{{ include.date | date_to_string }}</h5>
+  <h5>{{ include.date | date: "%b %d, %Y" }}</h5>
 </div>
 <div class="nine columns">
   <h5>{{ include.title }}</h5>
