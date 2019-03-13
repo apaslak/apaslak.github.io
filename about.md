@@ -2,6 +2,7 @@
 layout: default
 title: Amy Paslak
 selected_nav: /about/
+permalink: /about/
 ---
 
 <div id="about">
