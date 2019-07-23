@@ -1,5 +1,12 @@
+- company: Venmo
+  start: 2019-07-09
+  positions:
+    - title: MTS 1 Software Engineer
+      noteables:
+        - Joined the backend team, where I learned Python and Django
 - company: Vibes Media
   start: 2012-05-14
+  end: 2019-07-01
   positions:
     - title: Senior Software Engineer / Team Lead
       noteables:
@@ -20,8 +27,8 @@
       noteables:
         - Maintained and expanded the automated test suite.
         - Documented and manually tested new features.
-    - title: Software Engineering / Quality Assurance Intern
       conclude_page: conclude-page
+    - title: Software Engineering / Quality Assurance Intern
       noteables:
         - Designed, implemented, and maintained an automated test suite for a CRM platform's UI and APIs using Rspec, Capybara, and Selenium.
         - Integrated the test suite with Jenkins and a specialized test environment.
