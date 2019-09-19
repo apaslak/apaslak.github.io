@@ -24,22 +24,13 @@
       noteables:
         - Introduced better code quality and standardization with code reviews and linting tools
         - Mentored other engineers about common QA practices, as our team functioned without an official QA engineer.
+      conclude_page: conclude-page
     - title: Quality Assurance Engineer
       noteables:
         - Maintained and expanded the automated test suite.
         - Documented and manually tested new features.
-      conclude_page: conclude-page
     - title: Software Engineering / Quality Assurance Intern
       noteables:
         - Designed, implemented, and maintained an automated test suite for a CRM platform's UI and APIs using Rspec, Capybara, and Selenium.
         - Integrated the test suite with Jenkins and a specialized test environment.
         - Documented features and discovered/filed existing bugs.
-- company: Collaboration and Social Media Lab, IIT
-  start: 2011-09-01
-  end: 2012-05-12
-  positions:
-    - title: Research Assistant
-      noteables:
-        - Maintained MySQL database of political tweets scraped from Twitter
-        - Developed and maintained front-end application for querying the database
-        - Researched auto-coding techniques using MALLET

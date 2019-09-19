@@ -4,10 +4,12 @@
       details: Rails, Rspec, Capybara, Selenium, Jekyll
     - name: "Javascript"
       details: jQuery, Node.js, Backbone.js, Jasmine, React
+    - name: "Python"
+      details: Django
 - section: "Data Systems"
   skills:
     - name: "Databases"
-      details: MySQL, PostgreSQL
+      details: MySQL, PostgreSQL, MongoDB
     - name: "Data Stores"
       details: Redis
 - section: "Miscellaneous"
