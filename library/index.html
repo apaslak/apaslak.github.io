@@ -6,7 +6,7 @@ selected_nav: /library/
 ---
 
 <ul class="books">
-  {% for post in site.categories.library limit:15 offset:1 %}
+  {% for post in site.categories.library limit:12 offset:1 %}
     <li class="row">
       {% include book_template.html date=post.date title=post.title content=post.content reference_link=post.reference_link book_cover=post.book_cover%}
     </li>
