@@ -6,6 +6,6 @@ From there, I quickly learned I could build my _own_ website, with whatever cont
 
 In high school, I considered a career in graphic design because I enjoyed drawing and had some experience designing websites. After a short class in graphic design, I found that required more creativity than I could reliably expend and wasn't the path for me.
 
-I turned back to computers and programming, which felt like a different type of art, a puzzle that could be constructed to be aesthetically pleasing and functional. I graduated college with a BS in Computer Science and a minor in Psychology from Illinois Institute of Technology. I learned how to learn, and that programming for 12 hours straight was something I could accidentally do.
+I turned back to computers and programming, which felt like a different type of art, a puzzle that could be constructed to be aesthetically pleasing and functional. I graduated college with a BS in Computer Science and a minor in Psychology from Illinois Institute of Technology. I learned how to learn, and that programming for 12 hours straight was something I could do accidentally.
 
 Now I'm just a professional googler with attention to detail, the foresight to write everything down, and a knack for picking up new things.
