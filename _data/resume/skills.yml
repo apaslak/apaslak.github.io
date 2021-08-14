@@ -1,11 +1,11 @@
 - section: "Languages and Frameworks"
   skills:
+    - name: "Python"
+      details: Django
     - name: "Ruby"
       details: Rails, Rspec, Capybara, Selenium, Jekyll
     - name: "Javascript"
       details: jQuery, Node.js, Backbone.js, Jasmine, React
-    - name: "Python"
-      details: Django
 - section: "Data Systems"
   skills:
     - name: "Databases"

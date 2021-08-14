@@ -10,7 +10,7 @@
         {% if position.summary %}<div class="summary">{{ position.summary }}</div>{% endif %}
         <ul>
           {% for noteable in position.noteables %}
-          <li><p>{{ noteable }}</p></li>
+          <li class="{{ noteable.conclude_page }}"><p>{{ noteable.description }}</p></li>
           {% endfor %}
         </ul>
       </div>
