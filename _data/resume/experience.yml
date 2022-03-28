@@ -31,7 +31,3 @@
       noteables:
         - description: Introduced better code quality and standardization with code reviews and linting tools
         - description: Mentored other engineers about common QA practices, as our team functioned without an official QA engineer.
-    - title: Quality Assurance Engineer
-      noteables:
-        - description: Maintained and expanded the automated test suite.
-        - description: Documented and manually tested new features.

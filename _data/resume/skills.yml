@@ -3,7 +3,7 @@
     - name: "Python"
       details: Django, Pytest
     - name: "Ruby"
-      details: Rails, Rspec, Capybara, Selenium, Jekyll
+      details: Rails, Rspec, Selenium, Jekyll
     - name: "Javascript"
       details: jQuery, Node.js, Backbone.js, Jasmine, React
 - section: "Data Systems"
@@ -19,4 +19,4 @@
     - name: "Version Control"
       details: Git
     - name: "Infrastructure"
-      details: Jenkins, GitHub Actions
+      details: Jenkins, GitHub Actions, Docker, Kubernetes
