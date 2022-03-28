@@ -1,7 +1,7 @@
 - section: "Languages and Frameworks"
   skills:
     - name: "Python"
-      details: Django
+      details: Django, Pytest
     - name: "Ruby"
       details: Rails, Rspec, Capybara, Selenium, Jekyll
     - name: "Javascript"
@@ -15,8 +15,8 @@
 - section: "Miscellaneous"
   skills:
     - name: "Text Editors"
-      details: Vim, Emacs, SpaceMacs
+      details: Vim
     - name: "Version Control"
       details: Git
     - name: "Infrastructure"
-      details: Chef, Capistrano, Jenkins, Travis
+      details: Jenkins, GitHub Actions
