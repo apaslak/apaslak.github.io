@@ -4,8 +4,6 @@ Growing up, the family computer was a BIG deal. It was the portal to a wealth of
 
 From there, I quickly learned I could build my _own_ website, with whatever content I desired. I began building websites as a means of collecting and sharing my passions with the world. At this point, programming wasn't about learning a skill or what I could do with it. It was simply what I could get from it: an endless well to dump information about my pre-teen obsessions.
 
-In high school, I considered a career in graphic design because I enjoyed drawing and had some experience designing websites. After a short class in graphic design, I found that required more creativity than I could reliably expend and wasn't the path for me.
+Over time, computers and programming felt like art, puzzles that could be constructed to be aesthetically pleasing and functional. I graduated college with a BS in Computer Science and a minor in Psychology from Illinois Institute of Technology. I learned how to learn, and that programming for 12 hours straight was something I could do accidentally.
 
-I turned back to computers and programming, which felt like a different type of art, a puzzle that could be constructed to be aesthetically pleasing and functional. I graduated college with a BS in Computer Science and a minor in Psychology from Illinois Institute of Technology. I learned how to learn, and that programming for 12 hours straight was something I could do accidentally.
-
-Now I'm just a professional googler with attention to detail, the foresight to write everything down, and a knack for picking up new things.
+Now I'm just a professional googler with attention to detail, the foresight to write everything down, and a knack for picking up new things. The last 10 years have flown by, and I feel such privilege to have landed in a career that I not only enjoy, but also excel in.
