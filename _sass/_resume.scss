@@ -105,6 +105,10 @@ h5 {
 };
 
 @media print {
+  body {
+    margin: 0mm;
+  }
+
   #experience {
     .conclude-page {
       padding-bottom: 20px;
