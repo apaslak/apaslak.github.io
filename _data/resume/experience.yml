@@ -3,16 +3,17 @@
   positions:
     - title: MTS 2 Software Engineer
       noteables:
-        - description: Tech lead and mentor for Venmo's debit card. Used AWS CDK to build process by which users with expiring cards are reissued new ones.
-        - description: Led preparation of Venmo's platform monolith (Docker, Python 2.7/3.5) for development on Apple's M1 chips.
-        - description: Documented and proposed new process for provisioning features and products to users.
-        - description: Praised as a stellar documentarian, PR writer, gap closer, and teacher.
+        - description: Tech lead for Venmo’s debit card. Crafted high-level design documentation, led feature discovery, and resolved intricate technical debt.
+        - description: Built comprehensive tooling for managing Venmo service deployments, with support for canaries, monitoring, and automatic rollback functionality using GitHub Actions.
+        - description: Lowered operational costs by load testing services and optimizing resource allocation.
+        - description: Migrated services from company maintained Kubernetes clusters to Amazon EKS.
     - title: MTS 1 Software Engineer
       noteables:
         - description: Led several cross-functional teams to rewrite existing ledger functionality using Cassandra and gRPC for a more scalable, feature-rich architecture.
         - description: Tech lead for Venmo's credit card. Remained knowledgeable of all project pieces while specializing in repayments domain.
         - description: Led final stages of testing the Venmo credit card, which included representing Venmo engineering in partner meetings and developing a bug triage process which allowed us to track, manage, and fix over 600 tickets in a few weeks.
         - description: Pioneered Venmo's adoption of GitHub Actions for CI/CD, establishing workflows and actions that were reused across the organization.
+          conclude_page: conclude-page
 - company: Vibes Media
   start: 2012-05-14
   end: 2019-07-01
@@ -20,7 +21,6 @@
     - title: Senior Software Engineer / Team Lead
       noteables:
         - description: Lead an agile team to maintain and improve an outdated CRM, built on Ruby/Rails with a Backbone.js and React front end.
-          conclude_page: conclude-page
         - description: Championed large UI overhaul, which brought the look and feel of the CRM up to date with modern styling and allowed the team to clean up unused and duplicated styles.
         - description: Successfully migrated CRM from company-owned servers into AWS.
     - title: Software Engineer II / Team Lead

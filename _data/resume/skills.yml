@@ -14,9 +14,9 @@
       details: Redis
 - section: "Miscellaneous"
   skills:
-    - name: "Text Editors"
-      details: Vim
-    - name: "Version Control"
-      details: Git
+    - name: "Event Driven Systems"
+      details: RabbitMQ, Kafka
+    - name: "Application Monitoring"
+      details: DataDog, New Relic
     - name: "Infrastructure"
-      details: Jenkins, GitHub Actions, Docker, Kubernetes
+      details: GitHub Actions, Docker, Kubernetes, AWS CDK, Jenkins
