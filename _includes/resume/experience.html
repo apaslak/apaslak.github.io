@@ -2,20 +2,22 @@
   <div class="three columns"><h5>Experience</h5></div>
   <div class="nine columns">
     {% for experience in site.data.resume.experience %}
-    <div class="subtitle">{{ experience.company }} &mdash; {{ experience.start | date: "%B %Y" }}-{{ experience.end | date: "%B %Y" | default: "present" }}</div>
-    <ul class="positions">
-      {% for position in experience.positions %}
-      <div class="position {{ position.conclude_page }}">
-        <div>{{ position.title }}</div>
-        {% if position.summary %}<div class="summary">{{ position.summary }}</div>{% endif %}
-        <ul>
-          {% for noteable in position.noteables %}
-          <li class="{{ noteable.conclude_page }}"><p>{{ noteable.description }}</p></li>
-          {% endfor %}
-        </ul>
-      </div>
-      {% endfor %}
-    </ul>
+    <div class="company {{ experience.format }}">
+      <div class="subtitle">{{ experience.company }} &mdash; {{ experience.start | date: "%B %Y" }}-{{ experience.end | date: "%B %Y" | default: "present" }}</div>
+      <ul class="positions">
+        {% for position in experience.positions %}
+        <div class="position {{ position.conclude_page }}">
+          <div>{{ position.title }}</div>
+          {% if position.summary %}<div class="summary">{{ position.summary }}</div>{% endif %}
+          <ul>
+            {% for noteable in position.noteables %}
+            <li class="{{ noteable.conclude_page }}"><p>{{ noteable.description }}</p></li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endfor %}
+      </ul>
+    </div>
     {% endfor %}
   </div>
 </div>

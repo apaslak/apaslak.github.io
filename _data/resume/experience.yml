@@ -17,17 +17,14 @@
 - company: Vibes Media
   start: 2012-05-14
   end: 2019-07-01
+  format: print-offset-by-three
   positions:
     - title: Senior Software Engineer / Team Lead
       noteables:
         - description: Lead an agile team to maintain and improve an outdated CRM, built on Ruby/Rails with a Backbone.js and React front end.
-        - description: Championed large UI overhaul, which brought the look and feel of the CRM up to date with modern styling and allowed the team to clean up unused and duplicated styles.
+        - description: Championed large UI overhaul, upgrading the look and feel of the CRM up to date with modern styling and allowing the clean up unused and duplicated styles.
         - description: Successfully migrated CRM from company-owned servers into AWS.
     - title: Software Engineer II / Team Lead
       noteables:
         - description: Lead a team of contractors to update the CRM from Rails 2.3 & Ruby 1.8.7 to Rails 3.2 & Ruby 2.1, with active development ongoing.
         - description: Brief foray into contract work, where I built a small greeting card app and a lightweight conversation engine that integrated into the CRM.
-    - title: Software Engineer I
-      noteables:
-        - description: Introduced better code quality and standardization with code reviews and linting tools
-        - description: Mentored other engineers about common QA practices.

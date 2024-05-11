@@ -9,7 +9,7 @@
 - section: "Data Systems"
   skills:
     - name: "Databases"
-      details: MySQL, PostgreSQL, MongoDB
+      details: MySQL, PostgreSQL, MongoDB, DynamoDB
     - name: "Data Stores"
       details: Redis
 - section: "Miscellaneous"
