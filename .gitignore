@@ -1,6 +1,7 @@
 _site/
 .DS_Store
 .sass-cache
+.direnv
 *.swo
 *.swp
 tmp/
