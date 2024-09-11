@@ -12,3 +12,10 @@ $ gem install bundler
 $ bundle install
 $ bundle exec jekyll serve
 ```
+
+# flake.nix & direnv
+```
+direnv allow
+bundle install
+bundle exec jekyll serve
+```
