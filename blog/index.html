@@ -5,10 +5,10 @@ category: blog
 selected_nav: /blog/
 ---
 
-<ul class="posts blog">
+<div class="posts blog">
   {% for post in site.categories.blog limit:5 %}
-    <li class="row">
+    <div class="row">
       {% include post_template.html date=post.date title=post.title content=post.content %}
-    </li>
+    </div>
   {% endfor %}
-</ul>
+</div>
