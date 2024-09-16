@@ -1,7 +1,7 @@
 <div class='book'>
-  <h5 class="three columns">{{ include.date | date: "%b %d, %Y" }}</h5>
+  <h4 class="three columns">{{ include.date | date: "%b %d, %Y" }}</h4>
   <div class="nine columns">
-    <h5>{{ include.title }}</h5>
+    <h4>{{ include.title }}</h4>
     <a href="{{ include.reference_link }}"><img src="{{ include.book_cover }}"></a>
 
     {{ include.content }}
