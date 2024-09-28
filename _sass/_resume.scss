@@ -1,28 +1,24 @@
 body {
   margin: 30px;
-  font-family: "Lato", sans-serif;
+  font-family: $body_font;
 }
 
 a {
   text-decoration: none;
-  color: rgb(30,3,45);
+  color: $resume_link;
 }
 
 a:hover {
   text-decoration: none;
-  color: rgb(30,3,45);
+  color: $resume_hover_link;
   &:not(.name) {
-    border-bottom: 2px solid rgb(183,100,229);
+    border-bottom: 2px solid $resume_nav_border_bottom_link_hover;
   }
-}
-
-h5 {
-  //font-variant: small-caps;
 }
 
 .section {
   padding-bottom: 1em;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid $resume_section_border;
   margin: 1em 0em;
 
   &.last {
@@ -61,11 +57,10 @@ h5 {
     border-bottom: 1px solid black;
     line-height: 40px;
     font-size: 2.5em;
-    //font-variant: small-caps;
-    font-family: "Francois One", sans-serif;
+    font-family: $header_font;
     font-weight: 700;
     &:hover {
-      border-bottom: 1px solid rgb(183,100,229);
+      border-bottom: 1px solid $resume_nav_border_bottom_link_hover;
     }
   }
 }

@@ -1,7 +1,10 @@
 body {
   margin-bottom: 40px;
-  font-family: "Lato", sans-serif;
-  background-color: #EEE9F2;
+  font-family: $body_font;
+  background-color: $background;
+  color: $text;
+  line-height: 1.6em;
+  font-size: 1.8em;
 }
 
 .with-nav {
@@ -10,22 +13,16 @@ body {
 
 a {
   text-decoration: none;
-  color: rgb(78,15,112);
+  color: $link;
 }
 
 a:hover {
   text-decoration: none;
-  color: rgb(183,100,229);
-}
-
-p {
-  line-height: 1.4em;
-  font-size: 1em;
-  color: rgb(30,3,45);
+  color: $hover_link;
 }
 
 hr {
-  border-top: 1px solid rgb(183,100,229);
+  border-top: 1px solid $hr;
   margin: 2rem;
 }
 
