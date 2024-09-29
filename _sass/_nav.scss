@@ -65,7 +65,7 @@ footer {
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
-    list-style: none;
+    width: 192px;
 
     @include link;
   }
